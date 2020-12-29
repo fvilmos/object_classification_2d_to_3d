@@ -23,9 +23,9 @@ Note: for visualization purposes, the pyvista and itk viewer is used. Please fol
 
 More details on the implementation, algorithms can be found here:
 
-https://github.com/fvilmos/kinect_point_cloud - visualization of Kinect 3d data
-https://github.com/fvilmos/cascade_tools - train your cascade
-https://github.com/fvilmos/cascade_nms - false positive filtering with Non-Maximum-Suppression
+ - https://github.com/fvilmos/kinect_point_cloud - visualization of Kinect 3d data
+ - https://github.com/fvilmos/cascade_tools - train your cascade
+ - https://github.com/fvilmos/cascade_nms - false positive filtering with Non-Maximum-Suppression
 
 ### TODO
  - Optimize Classifier - change with i.e. Yolo or Mobilenet
