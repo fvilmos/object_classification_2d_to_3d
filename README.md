@@ -1,4 +1,4 @@
-# Object classification from 2D images to 3d point cloud
+# Object classification from 2D images to 3D point cloud
 
 This approach uses the available methods for image object classification in 2D then projects the results based on RGB-D depth information to the 3D space.
 Object classification (in this case) is made with Cascade classifier, but easily can be changed with a Deep Neuronal Network.
@@ -13,7 +13,7 @@ Processig steps:
 <p align="center"> 
   <img src="./info/filtered.jpg" alt="500" width="500"></a>
 </p>
-3. Object coordinated are projected in 3D space using Kinect claibration parameters. Dtection are plotted on the 3D Point Cloud
+3. Object coordinated are projected in 3D space using Kinect claibration parameters. Detection are plotted on the 3D Point Cloud
 <p align="center"> 
   <img src="./info/qc3d.png" alt="500" width="500"></a>
 </p>
@@ -29,7 +29,7 @@ More details on the implementation, algorithms can be found here:
 
 ### TODO
  - Optimize Classifier - change with i.e. Yolo or Mobilenet
- - with a good classifier the optimize away the Non-Maximum-Suppression step
+ - with a good classifier optimize away the Non-Maximum-Suppression step
 
 Any contribution is welcomed!
 
